@@ -1,0 +1,39 @@
+body {
+    background-color: #7fc9e4;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+    
+}
+
+
+.footer {
+    background-color: rgb(88, 87, 87);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ .logos-container img {
+            max-width: 2300px; /* Ajusta el tamaño según necesites */
+            height: auto;
+}
+
+.logos-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Espacio entre los logos */  
+
+}
